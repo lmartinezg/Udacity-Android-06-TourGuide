@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Valencia Tour Guide</string>
+    <string name="category_historic">Sitios históticos</string>
+    <string name="category_musseums">Museos</string>
+    <string name="category_parks">Parques</string>
+    <string name="category_theaters">Teatros</string>
+    <string name="category_transport">Transporte público</string>
+    <string name="details">Detalles</string>
+    <string name="noGeoData">No se dispone de datos de ubicación</string>
+    <string name="noMapsApp">No hay disponible ninguna aplicación de mapas</string>
+    <string name="noWebPage">No se dispone de dirección de la página web</string>
+</resources>

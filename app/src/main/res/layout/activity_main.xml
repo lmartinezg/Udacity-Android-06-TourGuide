@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <TextView
+        android:id="@+id/historic"
+        style="@style/CategoryStyle"
+        android:background="@color/category_historic"
+        android:text="@string/category_historic" />
+
+    <TextView
+        android:id="@+id/museums"
+        style="@style/CategoryStyle"
+        android:background="@color/category_museums"
+        android:text="@string/category_musseums" />
+
+    <TextView
+        android:id="@+id/parks"
+        style="@style/CategoryStyle"
+        android:background="@color/category_parks"
+        android:text="@string/category_parks" />
+
+    <TextView
+        android:id="@+id/theaters"
+        style="@style/CategoryStyle"
+        android:background="@color/category_theaters"
+        android:text="@string/category_theaters" />
+
+    <TextView
+        android:id="@+id/transport"
+        style="@style/CategoryStyle"
+        android:background="@color/category_transport"
+        android:text="@string/category_transport" />
+
+</LinearLayout>

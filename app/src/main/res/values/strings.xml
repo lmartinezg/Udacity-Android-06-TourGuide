@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Valencia Tour Guide</string>
+
+    <string name="category_historic">Historic Places</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_musseums">Musseums</string>
+    <string name="category_theaters">Theaters</string>
+    <string name="category_transport">Transport</string>
+
+    <string name="details">Details</string>
+
+    <string name="noGeoData">No map coordinates available</string>
+    <string name="noMapsApp">No app available to show the map</string>
+    <string name="noWebPage">No web page provided for this POI</string>
+
+    <string name="mus_muvim_name" translatable="false">MuVIM</string>
+    <string name="mus_muvim_geo" translatable="false">39.469823,-0.381111</string>
+    <string name="mus_muvim_desc">Museu Valencià de la Il·lustració i la Modernitat</string>
+    <string name="mus_muvim_url" translatable="false">http://www.muvim.es/</string>
+    <string name="mus_muvim_not">De Informacion Muvim - Trabajo propio, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=47745903</string>
+
+    <string name="mus_patri_name">Museu del Patriarca</string>
+    <string name="mus_patri_geo" translatable="false">39.472351,-0.373076</string>
+    <string name="mus_patri_desc">Museu del Patriarca</string>
+    <string name="mus_patri_url" translatable="false">http://patriarcavalencia.es</string>
+    <string name="mus_patri_not">By Felivet - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=3752881</string>
+
+    <string name="mus_ba_name">Museu de Belles Arts</string>
+    <string name="mus_ba_url" translatable="false">http://www.museobellasartesvalencia.gva.es/</string>
+    <string name="mus_ba_not">De Felivet - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=3637537</string>
+    <string name="mus_ba_desc">Museu de Belles Arts de València</string>
+    <string name="mus_ba_geo" translatable="false">39.479128,-0.371062</string>
+
+    <string name="mus_prehis_name">Museu de Prehistòria</string>
+    <string name="mus_prehis_geo" translatable="false">39.478299,-0.383110</string>
+    <string name="mus_prehis_desc">Museu de Prehistòria de València</string>
+    <string name="mus_prehis_not">De Joanbanjo - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15820763</string>
+    <string name="mus_prehis_url" translatable="false">http://www.museuprehistoriavalencia.es/</string>
+
+    <string name="mus_ivam_name" translatable="false">IVAM</string>
+    <string name="mus_ivam_geo" translatable="false">39.479635,-0.382922</string>
+    <string name="mus_ivam_desc">Institut Valencià d\'Art Modern</string>
+    <string name="mus_ivam_not">De Silvestre, Valencia (Spain) - Trabajo propio, Camera: Mini PenCam©., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=321140</string>
+    <string name="mus_ivam_url" translatable="false">http://www.ivam.es/</string>
+
+    <string name="mus_mhv_name" translatable="false">MhV</string>
+    <string name="mus_mhv_geo" translatable="false">39.472547,-0.408483</string>
+    <string name="mus_mhv_desc">Museu d’Història de València</string>
+    <string name="mus_mhv_not">De Josep-Manel Vert - Museo de historia de Valencia, Dominio público, https://commons.wikimedia.org/w/index.php?curid=9085239</string>
+    <string name="mus_mhv_url" translatable="false">http://www.valencia.es/mhv</string>
+
+    <string name="mus_carme_name">Centre del Carme</string>
+    <string name="mus_carme_geo" translatable="false">39.479561,-0.379123</string>
+    <string name="mus_carme_desc">Centre del Carme - Cultura Contemporània</string>
+    <string name="mus_carme_not">De Un valencià - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=4137041</string>
+    <string name="mus_carme_url" translatable="false">http://www.consorcimuseus.gva.es/centro-del-carmen/?lang=es</string>
+
+</resources>

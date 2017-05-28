@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name_textView"
+        style="@style/detail.name"
+        android:text="Name placeholder" />
+
+    <TextView
+        android:id="@+id/desc_textView"
+        style="@style/detail.desc"
+        android:text="Description placeholder - Museu Valencià de la Il·lustració i la Modernitat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/detail.image"
+        android:src="@drawable/mus_muvim" />
+
+    <TextView
+        android:id="@+id/notice_textView"
+        style="@style/detail.notice"
+        android:text="Copyright notice for images" />
+
+    <LinearLayout style="@style/detail.buttons_container">
+
+        <TextView
+            android:id="@+id/url_textview"
+            style="@style/detail.button_textview"
+            android:drawableLeft="@drawable/ic_map_black_24dp"
+            android:text="www.sample_web_site.com" />
+
+        <TextView
+            android:id="@+id/geo_textview"
+            style="@style/detail.button_textview"
+            android:drawableLeft="@drawable/ic_open_in_browser_black_24dp"
+            android:text="Geo:sample_geo_coordinates" />
+
+    </LinearLayout>
+
+</LinearLayout>

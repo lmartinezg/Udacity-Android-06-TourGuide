@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="actionBarStyle">@style/TourGuideAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="TourGuideAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#A8A19E</item>
+    </style>
+
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <style name="detail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <style name="detail.name">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="detail.desc">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@color/copyright_notice</item>
+    </style>
+
+    <style name="detail.image">
+        <item name="android:layout_weight">5</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="detail.notice">
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">@color/copyright_notice</item>
+    </style>
+
+    <style name="detail.buttons_container">
+        <item name="android:layout_weight">2</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="detail.button_textview">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
