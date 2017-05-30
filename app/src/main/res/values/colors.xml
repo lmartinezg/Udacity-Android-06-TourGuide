@@ -24,6 +24,9 @@
     <!-- Background color for the transport category -->
     <color name="category_transport">#FF8A65</color>
 
+    <!-- Background color for the cerdits category -->
+    <color name="category_credits">#ea80fc</color>
+
     <!-- Background color for image copyright notice -->
     <color name="copyright_notice">#EEEEEE</color>
 </resources>

@@ -48,14 +48,19 @@ public class DetailActivity extends AppCompatActivity {
         final String geoString = currentPoI.getGeo();
         final String urlString = currentPoI.getUrl();
         final String nameString = currentPoI.getName();
+        final String descriptionString = currentPoI.getDescription();
         final String noticeString = currentPoI.getmImageNotice();
 
         // Set data for this POI in the correspoding views
-        nameTextView.setText(currentPoI.getName());
-        descTextView.setText(currentPoI.getDescription());
+        nameTextView.setText(nameString);
+        descTextView.setText(descriptionString);
         urlTextView.setText(urlString);
         geoTextView.setText(geoString);
         noticeTextView.setText(noticeString);
+
+        if (urlString.equals("")) {
+            urlTextView.setVisibility(View.GONE);
+        }
 
         // Get the Image Resource Id  from the current PoI object and
         // set this image on the Image ImageView if provided
@@ -81,6 +86,19 @@ public class DetailActivity extends AppCompatActivity {
                 if ((geoString == null)) {
                     Toast.makeText(getApplicationContext(), R.string.noGeoData, Toast.LENGTH_SHORT);
                 } else {
+
+                    Intent intent = new Intent(DetailActivity.this, MapsActivity.class);
+
+                    Bundle b = new Bundle();
+                    b.putString("name", nameString);
+                    b.putString("geo", geoString);
+
+                    intent.putExtras(b);
+
+                    startActivity(intent);
+
+
+/*
                     String uriString_v1 = "geo:0,0?q=loc:" + geoString + "(" + Uri.encode(currentPoI.getName() + ")");
                     String uriString_v2 = "geo:" + geoString;
                     String uriString = uriString_v2;
@@ -93,6 +111,7 @@ public class DetailActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(getApplicationContext(), R.string.noMapsApp, Toast.LENGTH_SHORT).show();
                     }
+ */
                 }
             }
         });
@@ -103,7 +122,7 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d(LOG_TAG, "urlString1: " + urlString);
-                if ((urlString == null)) {
+                if ((urlString.equals(""))) {
                     Toast.makeText(getApplicationContext(), R.string.noWebPage, Toast.LENGTH_SHORT).show();
                 } else {
                     String uriString = urlString;

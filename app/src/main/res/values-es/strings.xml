@@ -10,4 +10,9 @@
     <string name="noGeoData">No se dispone de datos de ubicación</string>
     <string name="noMapsApp">No hay disponible ninguna aplicación de mapas</string>
     <string name="noWebPage">No se dispone de dirección de la página web</string>
+    <string name="category_credits">Créditos</string>
+    <string name="credits_text_1">Puntos de interés e imágenes: www.wikipedia.com</string>
+    <string name="credits_text_2">Créditos de las imágenes debajo de cada una de ellas</string>
+    <string name="credits_text_3">Coordenadas geográficas: Google Maps</string>
+    <string name="title_activity_maps">Mapa</string>
 </resources>

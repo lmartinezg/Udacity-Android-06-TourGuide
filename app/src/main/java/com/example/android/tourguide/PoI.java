@@ -28,7 +28,12 @@ class PoI {
      * @param mImageNotice     Copyright notice for images, if applicable
      * @param mUrl             Optional URL for the POI web site
      */
-    public PoI(String mName, String mGeo, String mDescription, int mImageResourceId, String mImageNotice, String mUrl) {
+    public PoI(String mName,
+               String mGeo,
+               String mDescription,
+               int mImageResourceId,
+               String mImageNotice,
+               String mUrl) {
         this.mName = mName;
         this.mGeo = mGeo;
         this.mDescription = mDescription;

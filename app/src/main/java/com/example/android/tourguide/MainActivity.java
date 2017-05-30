@@ -85,5 +85,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Find the View that shows the credits
+        TextView credits = (TextView) findViewById(R.id.credits);
+
+        // Set a click listener on that View
+        credits.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the family View is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new Intent to open the {@link CreditsActivity}
+                Intent intent = new Intent(MainActivity.this, CreditsActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

@@ -6,6 +6,7 @@
     <string name="category_musseums">Musseums</string>
     <string name="category_theaters">Theaters</string>
     <string name="category_transport">Transport</string>
+    <string name="category_credits">Credits</string>
 
     <string name="details">Details</string>
 
@@ -54,5 +55,45 @@
     <string name="mus_carme_desc">Centre del Carme - Cultura Contemporània</string>
     <string name="mus_carme_not">De Un valencià - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=4137041</string>
     <string name="mus_carme_url" translatable="false">http://www.consorcimuseus.gva.es/centro-del-carmen/?lang=es</string>
+
+    <string name="credits_text_1">Points of Interes and pictures: www.wikipedia.com</string>
+    <string name="credits_text_2">Picture credits available below each image</string>
+    <string name="credits_text_3">Geo coordinates: Google Maps</string>
+    <string name="his_pvirgen_name">Plaça de la Mare de Déu</string>
+    <string name="his_pvirgen_desc">Plaza de la Virgen</string>
+    <string name="his_pvirgen_not">De Diego Delso, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=34946190</string>
+    <string name="his_pvirgen_geo" translatable="false">39.476330,-0.375308</string>
+    <string name="his_pvirgen_url" translatable="false" />
+    <string name="his_tquart_name">Torres de Quart</string>
+    <string name="his_tquart_geo" translatable="false">39.475743,-0.383889</string>
+    <string name="his_tquart_desc">Torres de Quart</string>
+    <string name="his_tquart_not">De Arne Hückelheim - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9987345</string>
+    <string name="his_tquart_url" translatable="false" />
+    <string name="his_tserranos_name">Torres dels Serrans</string>
+    <string name="his_tserranos_geo" translatable="false">39.479192,-0.376002</string>
+    <string name="his_tserranos_desc">Torres de Serranos</string>
+    <string name="his_tserranos_not">De Diego Delso, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35074193</string>
+    <string name="his_tserranos_url" translatable="false" />
+    <string name="his_lonja_name">Llotja de la Seda</string>
+    <string name="his_lonja_geo" translatable="false">39.474373,-0.378328</string>
+    <string name="his_lonja_desc">Lonja de la Seda de Valencia o Lonja de los Mercaderes</string>
+    <string name="his_lonja_not">De Emilio García from Parla, Spain - Lonja de Valencia, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=6831222</string>
+    <string name="his_lonja_url" translatable="false" />
+    <string name="his_mcentral_name">Mercado Central de Valencia</string>
+    <string name="his_mcentral_desc">Mercado Central de Valencia</string>
+    <string name="his_mcentral_geo" translatable="false">39.473597,-0.378983</string>
+    <string name="his_mcentral_not">De M4n0locervera - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21426156</string>
+    <string name="his_mcentral_url" translatable="false">https://www.mercadocentralvalencia.es/</string>
+    <string name="his_predonda_name">Plaça Redona</string>
+    <string name="his_predonda_geo" translatable="false">39.473663,-0.376494</string>
+    <string name="his_predonda_desc">Plaza redonda de Valencia</string>
+    <string name="his_predonda_not">By Joanbanjo - Treball propi, Domini públic, https://commons.wikimedia.org/w/index.php?curid=8782805</string>
+    <string name="his_predonda_url" translatable="false" />
+    <string name="his_micalet_name">Torre del Micalet</string>
+    <string name="his_micalet_geo" translatable="false">39.475335,-0.375630</string>
+    <string name="his_micalet_desc">Torre del Miguelete</string>
+    <string name="his_micalet_not">De Rafa Esteve - Trabajo propio, CC BY-SA 3.0 es, https://commons.wikimedia.org/w/index.php?curid=28471979</string>
+    <string name="his_micalet_url" translatable="false" />
+    <string name="title_activity_maps">Map</string>
 
 </resources>
