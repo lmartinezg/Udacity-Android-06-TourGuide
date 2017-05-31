@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
@@ -14,6 +13,10 @@ import android.widget.Toast;
 import static com.example.android.tourguide.R.id.imageView;
 
 public class DetailActivity extends AppCompatActivity {
+
+    static private final int MAP_INTENT_TYPE_MAPSAPP = 1;
+    static private final int MAP_INTENT_TYPE_FRAGMENT = 2;
+    static private final int MAP_INTENT_TYPE = MAP_INTENT_TYPE_FRAGMENT;
 
     private final String LOG_TAG = this.getClass().getName();
 
@@ -58,6 +61,12 @@ public class DetailActivity extends AppCompatActivity {
         geoTextView.setText(geoString);
         noticeTextView.setText(noticeString);
 
+        // Hide geo View if no geo data
+        if (geoString.equals("")) {
+            geoTextView.setVisibility(View.GONE);
+        }
+
+        // Hide URL View if no URL
         if (urlString.equals("")) {
             urlTextView.setVisibility(View.GONE);
         }
@@ -72,6 +81,8 @@ public class DetailActivity extends AppCompatActivity {
             imgImageView.setVisibility(View.GONE);
             noticeTextView.setVisibility(View.GONE);
         }
+
+        // Hide notice View if no data
         if (noticeString == null) {
             noticeTextView.setVisibility(View.GONE);
         } else if (noticeString.equals("")) {
@@ -83,35 +94,37 @@ public class DetailActivity extends AppCompatActivity {
             // The code in this method will be executed when the geo View is clicked on.
             @Override
             public void onClick(View view) {
-                if ((geoString == null)) {
-                    Toast.makeText(getApplicationContext(), R.string.noGeoData, Toast.LENGTH_SHORT);
+                if ((geoString.equals(""))) {
+                    Toast.makeText(getApplicationContext(), R.string.noGeoData, Toast.LENGTH_SHORT).show();
                 } else {
 
-                    Intent intent = new Intent(DetailActivity.this, MapsActivity.class);
+                    switch (MAP_INTENT_TYPE) {
 
-                    Bundle b = new Bundle();
-                    b.putString("name", nameString);
-                    b.putString("geo", geoString);
+                        case MAP_INTENT_TYPE_MAPSAPP:
+                            // Kept here for future reference
+                            String uriString_v1 = "geo:0,0?q=loc:" + geoString + "(" + Uri.encode(currentPoI.getName() + ")");
+                            String uriString_v2 = "geo:" + geoString;
+                            String uriString = uriString_v2;
 
-                    intent.putExtras(b);
+                            Uri gmmIntentUri = Uri.parse(uriString);
+                            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                            mapIntent.setPackage("com.google.android.apps.maps");
+                            if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                                startActivity(mapIntent);
+                            } else {
+                                Toast.makeText(getApplicationContext(), R.string.noMapsApp, Toast.LENGTH_SHORT).show();
+                            }
+                            break;
 
-                    startActivity(intent);
-
-
-/*
-                    String uriString_v1 = "geo:0,0?q=loc:" + geoString + "(" + Uri.encode(currentPoI.getName() + ")");
-                    String uriString_v2 = "geo:" + geoString;
-                    String uriString = uriString_v2;
-                    Log.d(LOG_TAG, "uriString = " + uriString);
-                    Uri gmmIntentUri = Uri.parse(uriString);
-                    Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                    mapIntent.setPackage("com.google.android.apps.maps");
-                    if (mapIntent.resolveActivity(getPackageManager()) != null) {
-                        startActivity(mapIntent);
-                    } else {
-                        Toast.makeText(getApplicationContext(), R.string.noMapsApp, Toast.LENGTH_SHORT).show();
+                        case MAP_INTENT_TYPE_FRAGMENT:
+                            Intent intent = new Intent(DetailActivity.this, MapsActivity.class);
+                            Bundle b = new Bundle();
+                            b.putString("name", nameString);
+                            b.putString("geo", geoString);
+                            intent.putExtras(b);
+                            startActivity(intent);
+                            break;
                     }
- */
                 }
             }
         });
@@ -121,7 +134,6 @@ public class DetailActivity extends AppCompatActivity {
             // The code in this method will be executed when the geo View is clicked on.
             @Override
             public void onClick(View view) {
-                Log.d(LOG_TAG, "urlString1: " + urlString);
                 if ((urlString.equals(""))) {
                     Toast.makeText(getApplicationContext(), R.string.noWebPage, Toast.LENGTH_SHORT).show();
                 } else {
@@ -129,7 +141,6 @@ public class DetailActivity extends AppCompatActivity {
                     if (!uriString.startsWith("http://") && !uriString.startsWith("https://")) {
                         uriString = "http://" + uriString;
                     }
-                    Log.d(LOG_TAG, "uriString2: " + uriString);
                     Uri intentUri = Uri.parse(uriString);
                     Intent browserIntent = new Intent(Intent.ACTION_VIEW, intentUri);
                     startActivity(browserIntent);

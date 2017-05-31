@@ -27,16 +27,16 @@
     <LinearLayout style="@style/detail.buttons_container">
 
         <TextView
-            android:id="@+id/url_textview"
-            style="@style/detail.button_textview"
-            android:drawableLeft="@drawable/ic_map_black_24dp"
-            android:text="www.sample_web_site.com" />
-
-        <TextView
             android:id="@+id/geo_textview"
             style="@style/detail.button_textview"
-            android:drawableLeft="@drawable/ic_open_in_browser_black_24dp"
+            android:drawableLeft="@drawable/ic_map_black_24dp"
             android:text="Geo:sample_geo_coordinates" />
+
+        <TextView
+            android:id="@+id/url_textview"
+            style="@style/detail.button_textview"
+            android:drawableLeft="@drawable/ic_open_in_browser_black_24dp"
+            android:text="www.sample_web_site.com" />
 
     </LinearLayout>
 

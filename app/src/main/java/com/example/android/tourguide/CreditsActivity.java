@@ -12,6 +12,5 @@ public class CreditsActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
     }
 }

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Valencia Tour Guide</string>
+    <string name="app_name" translatable="false">Valencia Tour Guide</string>
 
     <string name="category_historic">Historic Places</string>
-    <string name="category_parks">Parks</string>
+    <string name="category_parks">Parks and activities</string>
     <string name="category_musseums">Musseums</string>
     <string name="category_theaters">Theaters</string>
     <string name="category_transport">Transport</string>
@@ -16,84 +16,209 @@
 
     <string name="mus_muvim_name" translatable="false">MuVIM</string>
     <string name="mus_muvim_geo" translatable="false">39.469823,-0.381111</string>
-    <string name="mus_muvim_desc">Museu Valencià de la Il·lustració i la Modernitat</string>
+    <string name="mus_muvim_desc" translatable="false">Museu Valencià de la Il·lustració i la Modernitat</string>
     <string name="mus_muvim_url" translatable="false">http://www.muvim.es/</string>
-    <string name="mus_muvim_not">De Informacion Muvim - Trabajo propio, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=47745903</string>
+    <string name="mus_muvim_not" translatable="false">De Informacion Muvim - Trabajo propio, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=47745903</string>
 
-    <string name="mus_patri_name">Museu del Patriarca</string>
+    <string name="mus_patri_name" translatable="false">Museu del Patriarca</string>
     <string name="mus_patri_geo" translatable="false">39.472351,-0.373076</string>
-    <string name="mus_patri_desc">Museu del Patriarca</string>
+    <string name="mus_patri_desc" translatable="false">Museu del Patriarca</string>
     <string name="mus_patri_url" translatable="false">http://patriarcavalencia.es</string>
-    <string name="mus_patri_not">By Felivet - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=3752881</string>
+    <string name="mus_patri_not" translatable="false">By Felivet - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=3752881</string>
 
-    <string name="mus_ba_name">Museu de Belles Arts</string>
+    <string name="mus_ba_name" translatable="false">Museu de Belles Arts</string>
     <string name="mus_ba_url" translatable="false">http://www.museobellasartesvalencia.gva.es/</string>
-    <string name="mus_ba_not">De Felivet - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=3637537</string>
-    <string name="mus_ba_desc">Museu de Belles Arts de València</string>
+    <string name="mus_ba_not" translatable="false">De Felivet - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=3637537</string>
+    <string name="mus_ba_desc" translatable="false">Museu de Belles Arts de València</string>
     <string name="mus_ba_geo" translatable="false">39.479128,-0.371062</string>
 
-    <string name="mus_prehis_name">Museu de Prehistòria</string>
+    <string name="mus_prehis_name" translatable="false">Museu de Prehistòria</string>
     <string name="mus_prehis_geo" translatable="false">39.478299,-0.383110</string>
-    <string name="mus_prehis_desc">Museu de Prehistòria de València</string>
-    <string name="mus_prehis_not">De Joanbanjo - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15820763</string>
+    <string name="mus_prehis_desc" translatable="false">Museu de Prehistòria de València</string>
+    <string name="mus_prehis_not" translatable="false">De Joanbanjo - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15820763</string>
     <string name="mus_prehis_url" translatable="false">http://www.museuprehistoriavalencia.es/</string>
 
     <string name="mus_ivam_name" translatable="false">IVAM</string>
     <string name="mus_ivam_geo" translatable="false">39.479635,-0.382922</string>
-    <string name="mus_ivam_desc">Institut Valencià d\'Art Modern</string>
-    <string name="mus_ivam_not">De Silvestre, Valencia (Spain) - Trabajo propio, Camera: Mini PenCam©., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=321140</string>
+    <string name="mus_ivam_desc" translatable="false">Institut Valencià d\'Art Modern</string>
+    <string name="mus_ivam_not" translatable="false">De Silvestre, Valencia (Spain) - Trabajo propio, Camera: Mini PenCam©., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=321140</string>
     <string name="mus_ivam_url" translatable="false">http://www.ivam.es/</string>
 
     <string name="mus_mhv_name" translatable="false">MhV</string>
     <string name="mus_mhv_geo" translatable="false">39.472547,-0.408483</string>
-    <string name="mus_mhv_desc">Museu d’Història de València</string>
-    <string name="mus_mhv_not">De Josep-Manel Vert - Museo de historia de Valencia, Dominio público, https://commons.wikimedia.org/w/index.php?curid=9085239</string>
+    <string name="mus_mhv_desc" translatable="false">Museu d’Història de València</string>
+    <string name="mus_mhv_not" translatable="false">De Josep-Manel Vert - Museo de historia de Valencia, Dominio público, https://commons.wikimedia.org/w/index.php?curid=9085239</string>
     <string name="mus_mhv_url" translatable="false">http://www.valencia.es/mhv</string>
 
-    <string name="mus_carme_name">Centre del Carme</string>
+    <string name="mus_carme_name" translatable="false">Centre del Carme</string>
     <string name="mus_carme_geo" translatable="false">39.479561,-0.379123</string>
-    <string name="mus_carme_desc">Centre del Carme - Cultura Contemporània</string>
-    <string name="mus_carme_not">De Un valencià - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=4137041</string>
+    <string name="mus_carme_desc" translatable="false">Centre del Carme - Cultura Contemporània</string>
+    <string name="mus_carme_not" translatable="false">De Un valencià - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=4137041</string>
     <string name="mus_carme_url" translatable="false">http://www.consorcimuseus.gva.es/centro-del-carmen/?lang=es</string>
 
     <string name="credits_text_1">Points of Interes and pictures: www.wikipedia.com</string>
     <string name="credits_text_2">Picture credits available below each image</string>
     <string name="credits_text_3">Geo coordinates: Google Maps</string>
-    <string name="his_pvirgen_name">Plaça de la Mare de Déu</string>
-    <string name="his_pvirgen_desc">Plaza de la Virgen</string>
-    <string name="his_pvirgen_not">De Diego Delso, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=34946190</string>
+    <string name="his_pvirgen_name" translatable="false">Plaça de la Mare de Déu</string>
+    <string name="his_pvirgen_desc" translatable="false">Plaza de la Virgen</string>
+    <string name="his_pvirgen_not" translatable="false">De Diego Delso, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=34946190</string>
     <string name="his_pvirgen_geo" translatable="false">39.476330,-0.375308</string>
     <string name="his_pvirgen_url" translatable="false" />
-    <string name="his_tquart_name">Torres de Quart</string>
+    <string name="his_tquart_name" translatable="false">Torres de Quart</string>
     <string name="his_tquart_geo" translatable="false">39.475743,-0.383889</string>
-    <string name="his_tquart_desc">Torres de Quart</string>
-    <string name="his_tquart_not">De Arne Hückelheim - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9987345</string>
+    <string name="his_tquart_desc" translatable="false">Torres de Quart</string>
+    <string name="his_tquart_not" translatable="false">De Arne Hückelheim - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9987345</string>
     <string name="his_tquart_url" translatable="false" />
-    <string name="his_tserranos_name">Torres dels Serrans</string>
+    <string name="his_tserranos_name" translatable="false">Torres dels Serrans</string>
     <string name="his_tserranos_geo" translatable="false">39.479192,-0.376002</string>
-    <string name="his_tserranos_desc">Torres de Serranos</string>
-    <string name="his_tserranos_not">De Diego Delso, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35074193</string>
+    <string name="his_tserranos_desc" translatable="false">Torres de Serranos</string>
+    <string name="his_tserranos_not" translatable="false">De Diego Delso, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35074193</string>
     <string name="his_tserranos_url" translatable="false" />
-    <string name="his_lonja_name">Llotja de la Seda</string>
+    <string name="his_lonja_name" translatable="false">Llotja de la Seda</string>
     <string name="his_lonja_geo" translatable="false">39.474373,-0.378328</string>
-    <string name="his_lonja_desc">Lonja de la Seda de Valencia o Lonja de los Mercaderes</string>
-    <string name="his_lonja_not">De Emilio García from Parla, Spain - Lonja de Valencia, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=6831222</string>
+    <string name="his_lonja_desc" translatable="false">Lonja de la Seda de Valencia o Lonja de los Mercaderes</string>
+    <string name="his_lonja_not" translatable="false">De Emilio García from Parla, Spain - Lonja de Valencia, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=6831222</string>
     <string name="his_lonja_url" translatable="false" />
-    <string name="his_mcentral_name">Mercado Central de Valencia</string>
-    <string name="his_mcentral_desc">Mercado Central de Valencia</string>
+    <string name="his_mcentral_name" translatable="false">Mercado Central de Valencia</string>
+    <string name="his_mcentral_desc" translatable="false">Mercado Central de Valencia</string>
     <string name="his_mcentral_geo" translatable="false">39.473597,-0.378983</string>
-    <string name="his_mcentral_not">De M4n0locervera - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21426156</string>
+    <string name="his_mcentral_not" translatable="false">De M4n0locervera - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21426156</string>
     <string name="his_mcentral_url" translatable="false">https://www.mercadocentralvalencia.es/</string>
-    <string name="his_predonda_name">Plaça Redona</string>
+    <string name="his_predonda_name" translatable="false">Plaça Redona</string>
     <string name="his_predonda_geo" translatable="false">39.473663,-0.376494</string>
-    <string name="his_predonda_desc">Plaza redonda de Valencia</string>
-    <string name="his_predonda_not">By Joanbanjo - Treball propi, Domini públic, https://commons.wikimedia.org/w/index.php?curid=8782805</string>
+    <string name="his_predonda_desc" translatable="false">Plaza redonda de Valencia</string>
+    <string name="his_predonda_not" translatable="false">By Joanbanjo - Treball propi, Domini públic, https://commons.wikimedia.org/w/index.php?curid=8782805</string>
     <string name="his_predonda_url" translatable="false" />
-    <string name="his_micalet_name">Torre del Micalet</string>
+    <string name="his_micalet_name" translatable="false">Torre del Micalet</string>
     <string name="his_micalet_geo" translatable="false">39.475335,-0.375630</string>
-    <string name="his_micalet_desc">Torre del Miguelete</string>
-    <string name="his_micalet_not">De Rafa Esteve - Trabajo propio, CC BY-SA 3.0 es, https://commons.wikimedia.org/w/index.php?curid=28471979</string>
+    <string name="his_micalet_desc" translatable="false">Torre del Miguelete</string>
+    <string name="his_micalet_not" translatable="false">De Rafa Esteve - Trabajo propio, CC BY-SA 3.0 es, https://commons.wikimedia.org/w/index.php?curid=28471979</string>
     <string name="his_micalet_url" translatable="false" />
     <string name="title_activity_maps">Map</string>
+    <string name="parks_bioparc_name" translatable="false">Bioparc</string>
+    <string name="parks_bioparc_geo" translatable="false">39.478060,-0.407570</string>
+    <string name="parks_bioparc_desc" translatable="false">Bioparc Valencia</string>
+    <string name="parks_bioparc_not" translatable="false">De Gabriel Villena from Albacete, España - Bioparc Valencia IIUploaded by Jacopo Werther, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=24653378</string>
+    <string name="parks_bioparc_url" translatable="false">http://www.bioparcvalencia.es/</string>
+    <string name="parks_hemisferic_name" translatable="false">L\'Hemisfèric</string>
+    <string name="parks_hemisferic_geo" translatable="false">39.456685,-0.353884</string>
+    <string name="parks_hemisferic_desc" translatable="false">El Hemisférico</string>
+    <string name="parks_hemisferic_not" translatable="false">De Diego Delso, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=34921514</string>
+    <string name="parks_hemisferic_url" translatable="false">http://www.cac.es/hemisferic</string>
+    <string name="parks_museu_name" translatable="false">Museo de las Ciencias</string>
+    <string name="parks_museu_geo" translatable="false">39.456021,-0.351928</string>
+    <string name="parks_museu_desc" translatable="false">Museo de las Ciencias Príncipe Felipe</string>
+    <string name="parks_museu_not" translatable="false">De Diego Delso, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=34921604</string>
+    <string name="parks_museu_url" translatable="false">http://www.cac.es/museu/home</string>
+    <string name="parks_oceanografic_name" translatable="false">L\'Oceanogràfic</string>
+    <string name="parks_oceanografic_geo" translatable="false">39.453059,-0.347158</string>
+    <string name="parks_oceanografic_desc" translatable="false">El Oceanográfico</string>
+    <string name="parks_oceanografic_not" translatable="false">De Diliff - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=6563021</string>
+    <string name="parks_oceanografic_url" translatable="false">http://www.cac.es/oceanografic</string>
+    <string name="parks_gulliver_name" translatable="false">Gulliver</string>
+    <string name="parks_gulliver_geo" translatable="false">39.462525,-0.359594</string>
+    <string name="parks_gulliver_desc" translatable="false">Parque Gulliver</string>
+    <string name="parks_gulliver_not" translatable="false">De http://www.flickr.com/photos/puroticorico/ - flickr.com, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=3663864</string>
+    <string name="parks_viveros_name" translatable="false">Jardines del Real</string>
+    <string name="parks_viveros_not" translatable="false">De Joanbanjo - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12732007</string>
+    <string name="parks_viveros_geo" translatable="false">39.480541,-0.367709</string>
+    <string name="parks_viveros_desc" translatable="false">Jardines del Real o jardín de viveros</string>
+    <string name="parks_gulliver_url" translatable="false" />
+    <string name="parks_viveros_url" translatable="false" />
+    <string name="parks_monforte_name" translatable="false">Jardín de Monforte</string>
+    <string name="parks_monforte_geo" translatable="false">39.477506,-0.364686</string>
+    <string name="parks_monforte_desc" translatable="false">Jardín de Monforte</string>
+    <string name="parks_monforte_not" translatable="false">De Onderwijsgek - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=20703329</string>
+    <string name="parks_monforte_url" translatable="false" />
+    <string name="parks_turia_name" translatable="false">Jardín del Turia</string>
+    <string name="parks_turia_geo" translatable="false">39.472051,-0.365374</string>
+    <string name="parks_turia_desc" translatable="false">Jardín del Turia (tramo IX)</string>
+    <string name="parks_turia_not" translatable="false">De Adelheid Bischoff - taken by Adelheid Bischoff, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=845688</string>
+    <string name="parks_turia_url" translatable="false" />
+    <string name="parks_malvarrosa_name" translatable="false">Playa de la Malvarrosa</string>
+    <string name="parks_malvarrosa_geo" translatable="false">39.478223,-0.323901</string>
+    <string name="parks_malvarrosa_desc" translatable="false">Playa de la Malvarrosa</string>
+    <string name="parks_malvarrosa_not" translatable="false">De Manuel Martín Vicente, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=1602688</string>
+    <string name="parks_malvarrosa_url" translatable="false" />
+    <string name="parks_albufera_name" translatable="false">La Albufera</string>
+    <string name="parks_albufera_geo" translatable="false">39.334642,-0.365621</string>
+    <string name="parks_albufera_desc" translatable="false">Parque natural de la Albufera</string>
+    <string name="parks_albufera_not" translatable="false">De Fev - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=3724369</string>
+    <string name="parks_albufera_url" translatable="false" />
+    <string name="parks_palmar_name" translatable="false">El Palmar</string>
+    <string name="parks_palmar_geo" translatable="false">39.310831,-0.318166</string>
+    <string name="parks_palmar_desc" translatable="false">El Palmar</string>
+    <string name="parks_palmar_not" translatable="false">De Espencat - Trabajo propio, Dominio público, https://commons.wikimedia.org/w/index.php?curid=6664653</string>
+    <string name="parks_palmar_url" translatable="false" />
+    <string name="transport_puerto_name">Valencia Port</string>
+    <string name="transport_puerto_geo" translatable="false">39.454811,-0.326853</string>
+    <string name="transport_puerto_desc">Valencia Port</string>
+    <string name="transport_puerto_not">Valencia Port</string>
+    <string name="transport_puerto_url" translatable="false">http://www.valenciaport.com/es/PUERTOS/Valencia/Paginas/Presentacion.aspx</string>
+    <string name="transport_est_nord_name" translatable="false">Estació del Nord</string>
+    <string name="transport_est_nord_geo" translatable="false">39.465967,-0.377471</string>
+    <string name="transport_est_nord_desc" translatable="false">Estación del Norte</string>
+    <string name="transport_est_nord_not" translatable="false">De Diego Delso, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35074113</string>
+    <string name="transport_est_nord_url" translatable="false">http://www.renfe.com/</string>
+    <string name="transport_est_cabanyal_name" translatable="false">Estación de Valencia-Cabañal</string>
+    <string name="transport_est_cabanyal_geo" translatable="false">39.470160, -0.334201</string>
+    <string name="transport_est_cabanyal_desc" translatable="false">Estación de Valencia-Cabañal</string>
+    <string name="transport_est_cabanyal_not" translatable="false">De Joanbanjo - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=26696677</string>
+    <string name="transport_est_cabanyal_url" translatable="false">http://www.renfe.com/</string>
+    <string name="transport_manises_name">Valencia Airport</string>
+    <string name="transport_manises_geo" translatable="false">39.489258,-0.478069</string>
+    <string name="transport_manises_desc">Valencia Airport (Manises)</string>
+    <string name="transport_manises_not" translatable="false">De Luislopez27 - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=31619124</string>
+    <string name="transport_manises_url" translatable="false">http://www.aeropuerto-valencia.com/</string>
+    <string name="transport_est_bus_name">Bus station</string>
+    <string name="transport_est_bus_geo" translatable="false">39.480414,-0.387915</string>
+    <string name="transport_est_bus_desc">Valencia bus station</string>
+    <string name="transport_est_bus_not" translatable="false" />
+    <string name="transport_est_bus_url" translatable="false" />
+    <string name="transport_emt_name" translatable="false">EMT Valencia</string>
+    <string name="transport_emt_geo" translatable="false" />
+    <string name="transport_emt_desc">Urban bus</string>
+    <string name="transport_emt_not" translatable="false" />
+    <string name="transport_emt_url" translatable="false">https://www.emtvalencia.es/</string>
+    <string name="transport_metro_name">Metrp</string>
+    <string name="transport_metro_geo" translatable="false" />
+    <string name="transport_metro_desc">Metro</string>
+    <string name="transport_metro_not" translatable="false" />
+    <string name="transport_metro_url" translatable="false">https://www.metrovalencia.es/</string>
+    <string name="transport_metrobus_name" translatable="false">Metrobus</string>
+    <string name="transport_metrobus_desc" translatable="false">Metrobus</string>
+    <string name="transport_metrobus_geo" translatable="false" />
+    <string name="transport_metrobus_not" translatable="false" />
+    <string name="transport_metrobus_url" translatable="false">http://www.avmm.es/web/area-metropolitana-de-valencia/red-transportes-metrobus</string>
+    <string name="theaters_arts_name" translatable="false">Palau de les Arts</string>
+    <string name="theaters_arts_geo" translatable="false">39.458451,-0.356540</string>
+    <string name="theaters_arts_desc" translatable="false">Palau de les Arts Reina Sofia</string>
+    <string name="theaters_arts_not" translatable="false">By Javier Yaya Tur (CAC, S. A.), CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=18791635</string>
+    <string name="theaters_arts_url" translatable="false">http://www.lesarts.com/</string>
+    <string name="theaters_palau_name" translatable="false">Palau de la Música</string>
+    <string name="theaters_palau_geo" translatable="false">39.466264,-0.360130</string>
+    <string name="theaters_palau_desc" translatable="false">Palau de la Música de València</string>
+    <string name="theaters_palau_not" translatable="false">By Espencat - Treball propi, Domini públic, https://commons.wikimedia.org/w/index.php?curid=4357971</string>
+    <string name="theaters_palau_url" translatable="false">http://www.palaudevalencia.com/</string>
+    <string name="theaters_principal_name" translatable="false">Teatre Principal</string>
+    <string name="theaters_principal_geo" translatable="false">39.470593,-0.374460</string>
+    <string name="theaters_principal_desc" translatable="false">Teatre Principal de València</string>
+    <string name="theaters_principal_not" translatable="false">By Felivet - Treball propi, Domini públic, https://commons.wikimedia.org/w/index.php?curid=3753583</string>
+    <string name="theaters_principal_url" translatable="false">http://teatres.gva.es/ficha-sala/sala_1/</string>
+    <string name="theaters_olympia_name" translatable="false">Teatro Olympia</string>
+    <string name="theaters_olympia_geo" translatable="false">39.470836,-0.378051</string>
+    <string name="theaters_olympia_desc" translatable="false">Teatro Olympia</string>
+    <string name="theater_olympia_not" translatable="false">De Desesser - Trabajo propio, CC0, https://commons.wikimedia.org/w/index.php?curid=52076922</string>
+    <string name="theaters_olympia_url" translatable="false">http://www.teatro-olympia.com/</string>
+    <string name="theaters_talia_name" translatable="false">Teatro Talía</string>
+    <string name="theaters_talia_geo" translatable="false">39.476599,-0.378072</string>
+    <string name="theaters_talia_desc" translatable="false">Teatro Talía</string>
+    <string name="theaters_talia_not" translatable="false">De Joanbanjo - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=16595675</string>
+    <string name="theaters_talia_url" translatable="false">http://www.teatretalia.es/</string>
+    <string name="theaters_micalet_name" translatable="false">Teatre Micalet</string>
+    <string name="theaters_micalet_geo" translatable="false">39.471323,-0.384029</string>
+    <string name="theaters_micalet_desc" translatable="false">Teatre Micalet</string>
+    <string name="theaters_micalet_not" translatable="false">By Joanbanjo - Treball propi, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=40831989</string>
+    <string name="theaters_micalet_url" translatable="false">http://www.teatremicalet.org/</string>
 
 </resources>

@@ -19,7 +19,7 @@ public class MusseumsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.poi_list);
 
-        // Create a list of words
+        // Create a list of pois
         final ArrayList<PoI> pois = new ArrayList<PoI>();
 
         pois.add(new PoI(
@@ -78,11 +78,11 @@ public class MusseumsActivity extends AppCompatActivity {
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml layout file.
+        // poi_list.xml layout file.
         ListView listView = (ListView) findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
+        // Make the {@link ListView} use the {@link PoIAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link PoI} in the list.
         listView.setAdapter(adapter);
 
         // Set a click listener to show the detail view when the user clicks on this item

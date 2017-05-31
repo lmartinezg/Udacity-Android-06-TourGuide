@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Valencia Tour Guide</string>
     <string name="category_historic">Sitios históticos</string>
     <string name="category_musseums">Museos</string>
-    <string name="category_parks">Parques</string>
+    <string name="category_parks">Parques y actividades</string>
     <string name="category_theaters">Teatros</string>
     <string name="category_transport">Transporte público</string>
     <string name="details">Detalles</string>
@@ -15,4 +14,14 @@
     <string name="credits_text_2">Créditos de las imágenes debajo de cada una de ellas</string>
     <string name="credits_text_3">Coordenadas geográficas: Google Maps</string>
     <string name="title_activity_maps">Mapa</string>
+    <string name="transport_manises_desc">Aeropuerto de Valencia (Manises)</string>
+    <string name="transport_manises_name">Aeropuerto de Valencia</string>
+    <string name="transport_emt_desc">Autobuses urbanos</string>
+    <string name="transport_est_bus_desc">Estación de autobuses de Valencia</string>
+    <string name="transport_est_bus_name">Estación de autobuses</string>
+    <string name="transport_metro_desc">Metro Valencia</string>
+    <string name="transport_metro_name">Metro Valencia</string>
+    <string name="transport_puerto_desc">Puerto de Valencia</string>
+    <string name="transport_puerto_not">Puerto de Valencia</string>
+    <string name="transport_puerto_name">Puerto de Valencia</string>
 </resources>

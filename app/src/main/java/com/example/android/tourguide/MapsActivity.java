@@ -21,17 +21,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
-
-        // TODO: Clean code
-
-        // LMG added - Start
-        //getActionBar().setDisplayHomeAsUpEnabled(true);
-
         Bundle b = getIntent().getExtras();
 
         mNameString = b.getString("name");
         mGeoString = b.getString("geo");
-        // LMG added - End
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
